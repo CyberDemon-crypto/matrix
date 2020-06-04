@@ -22,6 +22,6 @@ while True:
         for i in range(lines):
             gen()
     except KeyboardInterrupt:
-        sys.stdout.write(f'\u001b[31m{" "*(width//2-17)}Hacker detected!\u001b[0m\n')
+        sys.stdout.write(f'\u001b[2D\u001b[31m{" "*(width//2-17)}Hacker detected!\u001b[0m\n')
         break
 
