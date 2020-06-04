@@ -1,13 +1,15 @@
 """made by https://github.com/CyberDemon-crypto"""
-import sys, time, random
+import sys, time, random, os
+os.system('clear')
 sys.stdout.write('\u001b[32m')
-lines = 20  # Height
+lines = 20   # Height
+width = 150  # Width
 sys.stdout.write('\n' * lines)
 
 
 def gen():
     a = ''
-    for i in range(40):    # Width
+    for i in range(width):
         a += str(random.randint(0, 1))
     print(a)
 
@@ -20,4 +22,6 @@ while True:
         for i in range(lines):
             gen()
     except KeyboardInterrupt:
+        sys.stdout.write(f'\u001b[31m{" "*(width//2-17)}Hacker detected!\u001b[0m\n')
         break
+
