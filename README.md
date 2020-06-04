@@ -1,5 +1,6 @@
                                                     matrix
                                             Customizable bit matrix
+                                            
                                              ****** ****** ******
                                              *   ** *   ** *    *
                                              *  * * *  * *      *
