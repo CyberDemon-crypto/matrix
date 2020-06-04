@@ -1,2 +1,9 @@
-# matrix
-Customizable bit matrix
+                                                    matrix
+                                            Customizable bit matrix
+                                             ****** ****** ******
+                                             *   ** *   ** *    *
+                                             *  * * *  * *      *
+                                             *  * * *  * *   *** 
+                                             * *  * * *  *      *
+                                             **   * **   * *    *
+                                             ****** ****** ******
