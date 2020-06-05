@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """made by https://github.com/CyberDemon-crypto"""
 import sys, time, random, os
 os.system('clear')
