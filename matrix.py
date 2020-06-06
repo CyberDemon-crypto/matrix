@@ -4,7 +4,7 @@ import sys, time, random, os
 os.system('clear')
 sys.stdout.write('\u001b[32m')
 lines = 20   # Height
-width = 150  # Width
+width = 40  # Width
 sys.stdout.write('\n' * lines)
 
 
